@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="key1" value="bye1"/>
+  <parameter name="key2" value="hi2"/>
+    <classes>
+      <class name="com.crm.contacts.forpackageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
