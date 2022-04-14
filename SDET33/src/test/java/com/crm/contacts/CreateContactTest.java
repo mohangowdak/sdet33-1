@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import com.crm.genericUtility.BaseClass;
 
-//@Listeners(com.crm.genericUtility.ListenerImplementation.class)
+@Listeners(com.crm.genericUtility.ListenerImplementation.class)
 
 
 public class CreateContactTest extends BaseClass{
