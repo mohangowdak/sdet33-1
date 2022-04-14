@@ -27,7 +27,7 @@ driver.findElement(By.xpath("//input[@title='Save [Alt+S]']")).click();
 
 String actResult = driver.findElement(By.id("dtlview_Last Name")).getText();
 
-//Assert.assertTrue(actResult.equals("moh"));
+Assert.assertTrue(actResult.equals("moh"));
 Reporter.log("TC Pass", true);
 
 
